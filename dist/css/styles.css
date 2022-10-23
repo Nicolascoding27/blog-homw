@@ -639,6 +639,9 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+.flex{
+  display: flex;
+}
 
 @media (min-width: 576px) {
   .container-sm, .container {
@@ -4609,7 +4612,19 @@ textarea.form-control-lg {
 .card-img-bottom {
   width: 100%;
 }
-
+.picture{
+  width: 300px;
+  height: 300px;
+}
+.name{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.center-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card-img,
 .card-img-top {
   border-top-left-radius: calc(0.25rem - 1px);
